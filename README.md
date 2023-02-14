@@ -1,0 +1,7 @@
+# The Repository for the Paper Living Memory: AI-Generated Characters as Digital Mementos
+
+ Published in ACM IUI 2023
+
+## Abstract
+
+Every human culture has developed practices and rituals associated with remembering people of the past - be it for mourning, cultural preservation, or learning about historical events. In this paper, we present the concept of "Living Memories": interactive digital mementos that are created from journals, letters and data that an individual have left behind. Like an interactive photograph, living memories can be talked to and asked questions, making accessing the knowledge, attitudes and past experiences of a person easily accessible. To demonstrate our concept, we created an AI-based system for generating living memories from any data source and implemented living memories of the three historical figures "Leonardo Da Vinci", "Murasaki Shikibu", and "Captain Robert Scott". As a second key contribution, we present a novel metrics scheme for evaluating the accuracy of living memory architectures and show the accuracy of our pipeline to improve over baselines. Finally, we compare the user experience and learning effects of interacting with the living memory of Leonardo Da Vinci to reading his journal. Our results show that interacting with the living memory, in addition to simply reading a journal, increases learning effectiveness and motivation to learn about the character.
