@@ -1,0 +1,26 @@
+#ChatFlow {
+ height: 450px;
+ overflow: auto;
+ scroll-behavior: smooth;
+}
+
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
+body {
+  padding: 25px;
+  background-image: url("../image/Davinci-background.jpg");
+  background-repeat: repeat;
+  background-size: cover;
+  overflow-x: scroll;
+}
+
+#chatbox_user{
+  background-color: #FAEBD7;
+}
+
+#chatbox_other{
+  background-color: #fff7e2;
+}
