@@ -1,0 +1,16 @@
+service: livingmemoryapi
+
+provider:
+  name: aws
+  region: us-east-1
+  memorySize: 2048
+  timeout: 30
+
+functions:
+  livingmemoryapi:
+    image: <account_id>.dkr.ecr.us-east-1.amazonaws.com/livingmemoryapi-repo@<image_digest>
+    events:
+      - http:
+          path: endpoint
+          method: post
+          cors: true
